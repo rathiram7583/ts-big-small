@@ -1,14 +1,11 @@
 class BigSmall{
     num:Array <number>=[];
-    /*big:Array <number>=[0];
-    small:Array <number>=[0];
-    arrLen:number=this.num.length;*/
+
     
-    constructor(num:Array<number>/*big:Array<number>,small:Array<number>*/)
+    constructor(num:Array<number>)
     {
         this.num=num;
-        /*this.big=big;
-        this.small=small;*/
+        
     }
     small():number
     {

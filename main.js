@@ -1,12 +1,7 @@
 var BigSmall = /** @class */ (function () {
-    /*big:Array <number>=[0];
-    small:Array <number>=[0];
-    arrLen:number=this.num.length;*/
-    function BigSmall(num /*big:Array<number>,small:Array<number>*/) {
+    function BigSmall(num) {
         this.num = [];
         this.num = num;
-        /*this.big=big;
-        this.small=small;*/
     }
     BigSmall.prototype.small = function () {
         return Math.min.apply(Math, this.num);
